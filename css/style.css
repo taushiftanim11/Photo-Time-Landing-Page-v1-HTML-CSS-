@@ -1,0 +1,565 @@
+/*=================================
+				About
+===================================
+
+	Version:        1.0
+	Template Name:  YEBO Bycicle
+	Author:         Demo Author
+	Author email:   demo@demo.demo
+	Description:    Demo Description.
+	Template URL:   https://www.demo.demo
+	Author website: https://www.demo.demo
+	Tags:           html 5, creative, photo
+	Prefixed by:    https://autoprefixer.github.io
+	Font source:    https://fonts.google.com/
+	Icon source 1:  https://fonts.google.com/icons
+	Icon source 2:  https://fontawesome.com/
+
+===================================
+		Table of Contents
+===================================
+
+	1. Font
+	2. Typography
+	3. 
+	4. 
+	5. 
+	6. 
+	7. 
+	7. 
+	9. 
+
+=================================*/
+
+
+/*=================================
+	1. Fonts
+=================================*/
+
+@font-face {
+	font-family: GhothamRoundedBook;
+	src: url(../other/GothamRoundedBook.woff);
+}
+@font-face {
+	font-family: GhothamRoundedMedium;
+	src: url(../other/GothamRoundedMedium.woff);
+}
+@font-face {
+	font-family: GhothamRoundedBold;
+	src: url(../other/GothamRoundedBold.woff);
+}
+
+
+/*
+   ===================================
+        2. Typography
+   =================================== 
+*/
+body {
+	margin: 0px;
+	text-align: center;
+}
+h1 {
+	font-family: 'GhothamRoundedMedium';
+	font-size: 53px;
+	text-transform: uppercase;
+	line-height: 1.3;
+	letter-spacing: 6px;
+	word-spacing: 7px;
+	color: #FFFFFF;
+	margin: 0px;
+}
+h2 {
+	font-family: 'GhothamRoundedMedium';
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #16a085;
+	margin: 0px;
+	letter-spacing: 3px;
+	word-spacing: 3px;
+	line-height: 35px;
+}
+h3 {
+	font-family: 'GhothamRoundedMedium';
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #16a085;
+    margin: 0px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    line-height: 35px;
+    color: black;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+
+}
+li {
+	display: inline-block;
+}
+a {
+	font-family: 'GhothamRoundedMedium';
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 3px;
+	color: #FFFFFF;
+	font-size: 24px;
+	display: inline-block;
+}
+p {
+	font-family: 'GhothamRoundedbook';
+	font-size: 18px;
+	letter-spacing: 2px;
+	word-spacing: 5.5px;
+	line-height: 30px;
+	margin: 0px;
+}
+span {
+	font-family: "GhothamRoundedMedium";
+	display: inline-block;
+}
+.section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.area {
+width: 81%;
+}
+.btn {
+	color: #FFF;
+	background-color: #16a085;
+	border-radius: 5px;
+	font-size: 18px;
+	width: 290px;
+	height: 76px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+	border: 1px solid transparent;
+}
+.btn:hover {
+	background-color: #149178;
+	border: 1px solid white;
+}
+
+
+/*
+   ===================================
+        3. Header Area
+   =================================== 
+*/
+.header-section {
+	background-image: url(../image/landscape.png);
+	background-size: cover;
+}
+.header-area {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.nav {
+	margin-top: 60px;
+	margin-bottom: 340px;
+}
+.nav a {
+	margin: 0px 58px 0px 58px;
+}
+.nav li {
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+.nav li:hover a {
+	color: #16a085;
+}
+.nav img {
+	margin-bottom: 0px 30px -18px 30px;
+	width: 94px;
+	height: 100px;
+}
+.header-area span {
+	color: #ffffff;
+	font-size: 23px;
+	text-transform: lowercase;
+	letter-spacing: 2.5px;
+	word-spacing: 4px;
+	margin-top: 10px;
+}
+hgroup {
+	margin-bottom: 35px;
+}
+.headerbtn {
+	width: 250px;
+	height: 75px;
+}
+.social-nav {
+	margin: 330px 0px 30px 0px;
+}
+.social-nav i {
+	font-size: 35px;
+	color: #fff;
+}
+.social-nav a {
+    margin-right: 10px;
+    margin-left: 10px;
+	-webkit-transition: 0.8s;
+	-o-transition: 0.8s;
+	transition: 0.8s;
+}
+.social-nav a:hover i {
+	color: #16a085;
+}
+
+
+/*
+   ===================================
+        4. Represent Area
+   =================================== 
+*/
+.represent-section {
+	text-align: left;
+}
+.represent-area {
+	background-image: url(../image/Holding_Phone.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 62.5% 174%;
+	margin-top: 135px;
+}
+.represent-area h2 {
+	margin-top: 30px;
+	margin-bottom: 68px;
+}
+.represent-area .btn {
+	margin-top: 70px;
+	margin-bottom: 135px;
+	margin-bottom: 10px
+}
+
+
+/*
+   ===================================
+        5. Design Area
+   =================================== 
+*/
+.design-area {
+	background-image: url(../image/Phone.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 30.5% 100%;
+	margin-top: 220px;
+	text-align: left;
+}
+.design-section h2 {
+	margin-left: 965px;
+}
+.design-section p {
+	margin-left: 965px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	letter-spacing: 1px;
+}
+.design-section .btn {
+	margin-left: 965px;
+	margin-bottom: 60px;
+}
+.design-section .design-slider {
+	margin-left: 965px;
+	margin-bottom: 120px;
+}
+.design-slider span {
+	font-size: 17px;
+	line-height: 30px;
+	letter-spacing: 2px;
+}
+.design-slider i{
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.design-slider a:hover i {
+	color: #149178;
+}
+.design-slider i {
+	color: black;
+	font-size: 25px;
+}
+
+
+/*
+   ===================================
+        6. Community area
+   =================================== 
+*/
+.photo-area {
+	margin-top: 140px;
+}
+.photo-slider {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: end;
+	margin-bottom: 16px;
+}
+.photo-slider a:hover i {
+	color: #149178;
+}
+.photo-slider i {
+	color: #000;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.photo-area-photos {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin-bottom: 180px;
+}
+.our-community {
+	width: 355px;
+	height: 365px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.our-community img {
+	width: 90px;
+	height: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.our-community p {
+	width: 310px;
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 30px;
+}
+.photo-area-photos>img {
+	width: 555px;
+	height: 365px;
+}
+
+
+/*
+   ===================================
+        7. Subscribe Area
+   =================================== 
+*/
+.subscribe-section {
+	height: 1180px;
+	background-image: url(../image/Photography.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.subscribe-area h2 {
+	color: white;
+    font-size: 34px;
+    margin-top: 525px;
+    letter-spacing: 5px;
+}
+.subscribe-area form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top: 48px;
+}
+.subscribe-area input[type="email"] {
+    font-family: 'GhothamRoundedMedium';
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 5px;
+    color: #222222;
+    padding: 30px 30px;
+    border: none;
+    outline: none;
+    width: 420px;
+    border-radius: 5px 0px 0px 5px;
+}
+.subscribe-area input[type="email"]::-webkit-input-placeholder {
+    color: #373737;
+}
+.subscribe-area input[type="email"]::-moz-placeholder {
+    color: #373737;
+}
+.subscribe-area input[type="email"]:-ms-input-placeholder {
+    color: #373737;
+}
+.subscribe-area input[type="email"]::-ms-input-placeholder {
+    color: #373737;
+}
+.subscribe-area input[type="email"]::placeholder {
+    color: #373737;
+}
+.subscribe-area button {
+	background-color: #16a085;
+	border: none;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -4px;
+}
+.subscribe-area button:hover {
+	background-color: #138871;
+	cursor: pointer;
+}
+.subscribe-area  i {
+	font-size: 40px;
+	color: white;
+	padding: 0px 24px;
+}
+
+
+/*
+   ===================================
+        7. Download Area
+   =================================== 
+*/
+.download-area {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.download-section h2 {
+	margin-top: 135px;
+	color: #373737;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+.download-section p {
+	color: #373737;
+	margin-bottom: 70px;
+	max-width: 1140px;
+}
+.download-tab {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-bottom: 128px;
+}
+.dtaa {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.apple-download {
+	margin-right: 20px;
+}
+.android-download {
+	margin-left: 20px;
+}
+.download-tab i {
+	background-color: #16a085;
+    color: white;
+    font-size: 42px;
+    padding: 21.5px 25px;
+    border-radius: 0px 5px 5px 0px;
+}
+.android-download i {
+    padding: 21.5px 17px;
+}
+.download-tab .btn {
+    border-radius: 5px 0px 0px 5px;
+    background-color: #1abc9c;
+    width: 284.5px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding: 4.3px 37px;
+    font-size: 22px;
+	border: none;
+}
+.download-tab .btn:hover {
+    background-color: #16a085;
+}
+
+
+/*
+   ===================================
+        8. Footer Area
+   =================================== 
+*/
+.footer-area {
+	margin-top: 50px;
+	text-align: left;
+}
+.footer-area ul {
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: start;
+}
+.footer-area span {
+	color: #16a085;
+}
+.footer-area a {
+	color: #373737;
+	font-size: 20px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.footer-area a:hover {
+	color: #16a085;
+}
+.footer-area .footer-nav {
+	margin-bottom: 30px;
+}
+.footer-area>span {
+	color: #373737;
+	margin-bottom: 50px;
+	font-size: 17px;
+}

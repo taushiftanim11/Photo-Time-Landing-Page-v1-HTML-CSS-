@@ -1,0 +1,675 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+   ===================================
+        Responsive For 1920px
+   =================================== 
+*/
+@media (max-width: 1920px) {
+    span {
+        font-family: 'GhothamRoundedbook';
+        font-size: 18px;
+        letter-spacing: 2px;
+        word-spacing: 5.5px;
+        line-height: 30px;
+    }
+    .design-section h2 {
+        margin-left: 750px;
+    }
+    .design-section p {
+        margin-left: 750px;
+    }
+    .design-section .btn {
+        margin-left: 750px;
+    }
+    .design-section .design-slider {
+        margin-left: 750px;
+    }
+    .br1::after {
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,";
+    }
+    .br2::after {
+        content: "sed do eiusmod tempor incididunt ut labore et dolore";
+    }
+    .br3::after {
+        content: "magna aliqua. Ut enim ad minim veniam, quis ";
+    }
+    .br4::after {
+        content: "nostrud exercitation ullamco laboris nisi";
+    }
+    .br5::after {
+        content: "ut aliquip ex ea commodo consequat.";
+    }
+    .br11::after {
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,";
+    }
+    .br12::after {
+        content: "sed do eiusmod tempor incididunt ut labore et dolore";
+    }
+    .br13::after {
+        content: "magna aliqua. Ut enim ad minim veniam, quis ";
+    }
+    .br14::after {
+        content: "nostrud exercitation ullamco laboris nisi";
+    }
+    .br15::after {
+        content: "ut aliquip ex ea commodo consequat.";
+    }
+}
+
+
+/*
+   ===================================
+        Responsive For 1440px
+   =================================== 
+*/
+@media (max-width: 1440px) {
+    .header-section {
+        background-image: url(../image/landscape.png);
+        background-size: cover;
+    }
+    .represent-area {
+        background-size: 60.5% 171%;
+        margin-top: 95px;
+    }
+    .represent-area h2 {
+        margin-bottom: 45px;
+    }
+    .design-area {
+        background-size: 28.5% 100%;
+        margin-top: 120px;
+    }
+    .design-section h2 {
+        margin-left: 620px;
+    }
+    .design-section p {
+        margin-left: 620px;
+        margin-top: 45px;
+    }
+    .design-section .btn {
+        margin-left: 620px;
+    }
+    .design-section .design-slider {
+        margin-left: 620px;
+    }
+    .our-community {
+        width: 350px;
+        height: 300px;
+    }
+    .photo-area-photos>img {
+        width: 350px;
+        height: 300px;
+    }
+    .br11::after {
+        content: "Lorem ipsum dolor sit amet, consectetur";
+    }
+    .br12::after {
+        content: "adipiscing elit, sed do eiusmod tempor ";
+    }
+    .br13::after {
+        content: "incididunt ut labore et dolore magna ";
+    }
+    .br14::after {
+        content: "aliqua. Ut enim ad minim veniam,";
+    }
+    .br15::after {
+        content: "quis nostrud exercitation ";
+    }
+    .br16::after {
+        content: "ullamco laboris nisi ut ";
+    }
+    .br17::after {
+        content: "aliquip ex ea commodo";
+    }
+    .br18::after {
+        content: "consequat.";
+    }
+}
+
+
+/*
+   ===================================
+        Responsive For 1440px
+   =================================== 
+*/
+@media (max-width: 1366px) {
+    .design-area {
+        background-size: 28.5% 100%;
+        margin-top: 120px;
+    }
+    .subscribe-section {
+        height: 840px;
+    }
+    .subscribe-area h2 {
+        margin-top: 350px;
+    }
+}
+@media (max-width: 1280px) {
+    .design-area {
+        background-size: 28.5% 86%;
+        background-position: bottom left;
+    }
+    .design-section h2 {
+        margin-left: 500px;
+    }
+    .design-section p {
+        margin-left: 500px;
+        margin-top: 45px;
+    }
+    .design-section .btn {
+        margin-left: 500px;
+    }
+    .design-section .design-slider {
+        margin-left: 500px;
+        margin-bottom: 20px;
+    }
+    .our-community {
+        width: 268px;
+        height: 300px;
+    }
+    .br11::after {
+        content: "Lorem ipsum dolor sit amet, consectetur";
+    }
+    .br12::after {
+        content: "adipiscing elit, sed do eiusmod tempor ";
+    }
+    .br13::after {
+        content: "incididunt ut labore et dolore magna ";
+    }
+    .br14::after {
+        content: "aliqua. Ut enim ad minim veniam,";
+    }
+    .br15::after {
+        content: "quis nostrud exercitation ";
+    }
+    .br16::after {
+        content: "ullamco laboris nisi ut ";
+    }
+    .br17::after {
+        content: "aliquip ex ea commodo";
+    }
+    .br18::after {
+        content: "consequat.";
+    }
+}
+@media (max-width: 962px) {
+    .area {
+        width: 94%;
+    }
+    .header-section {
+        background-position: center;
+    }
+    .nav {
+        margin-top: 28px;
+        margin-bottom: 170px;
+    }
+    .nav a {
+        margin: 0px 15px 0px 15px;
+    }
+    .nav img {
+        margin: 0px 30px 28px 30px;
+        width: 80px;
+        height: 87px;
+    }
+    .represent-area {
+        background-size: 60.5% 171%;
+        margin-top: 30px;
+    }
+    .represent-area .btn {
+        margin-bottom: 77px;
+    }
+    span {
+        font-size: 17px;
+        letter-spacing: 1px;
+        word-spacing: 1.5px;
+        line-height: 25px;
+    }
+    .design-area {
+        background-size: 28.5% 76%;
+        margin-top: 60px;
+    }
+    .social-nav {
+        margin: 220px 0px 30px 0px;
+    }
+    .design-area {
+        background-size: 28.5% 86%;
+        background-position: bottom left;
+    }  
+    .photo-area {
+        margin-top: 56px;
+    }
+    .photo-area-photos {
+        margin-bottom: 110px;
+    }
+    .photo-area-photos > img {
+        width: 300px;
+        height: 240px;
+    }
+    .our-community {
+        width: 203px;
+        height: 240px;
+    }
+    .our-community img {
+        margin-bottom: 17px;
+      }
+    .our-community p {
+        max-width: 175px;
+        margin-top: 8px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .subscribe-area h2 {
+        margin-top: 250px;
+        font-size: 33px;
+    }
+    .subscribe-area input[type="email"] {
+        font-size: 21px;
+        letter-spacing: 2px;
+        padding: 21px 20px;
+        width: 360px;
+    }
+    .subscribe-area i {
+        padding: 0px 15px;
+    }
+    .subscribe-section {
+        height: 593px;
+    }
+    .download-section h2 {
+        margin-top: 85px;
+        margin-bottom: 15px;
+        font-size: 27px;
+    }
+    .download-section p {
+        margin-bottom: 60px;
+        max-width: 700px;
+    }
+    .download-tab .btn {
+        width: 230.5px;
+        padding: 4.3px 34px;
+    }
+    .footer-area .footer-nav {
+        margin-bottom: 10px;
+    }
+    .footer-area a {
+        font-size: 12px;
+    }
+    .footer-area > span {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 798px) {
+    .nav a {
+        margin: 0px 6px 0px 6px;
+        font-size: 19px;
+    }  
+    .nav img {
+        margin: 0px 15px 17px 15px;
+        width: 60px;
+        height: 70px;
+    }
+    h1 {
+        font-size: 39px;
+        line-height: 1.0;
+        letter-spacing: 5px;
+        word-spacing: 4px;
+    }
+    .header-area span {
+        font-size: 21px;
+        margin-top: 19px;
+    }
+    .btn {
+        font-size: 15px;
+        width: 201px;
+        height: 55px;
+    }
+    .social-nav i {
+        font-size: 28px;
+    }
+    .represent-area {
+        background-size: 62.5% 172%;
+    }
+    .represent-area h2 {
+        margin-top: 15px;
+    }
+    h2 {
+        font-size: 26px;
+        letter-spacing: 3px;
+        word-spacing: 3px;
+        line-height: 35px;
+    }
+    .represent-area .btn {
+        margin-bottom: 27px;
+        margin-top: 26px;
+    }  
+    span {
+        font-size: 15px;
+        letter-spacing: 1px;
+        word-spacing: 0.5px;
+        line-height: 21px;
+    }
+    .design-area {
+        background-size: 36.5% 92%;
+        background-position: bottom left;
+        margin-top: 60px;
+    }
+    .design-section h2 {
+        margin-left: 350px;
+    }
+    .design-section p {
+        margin-left: 350px;
+        margin-top: 16px;
+        margin-bottom: 39px;
+    }
+    .design-section .btn {
+        margin-left: 350px;
+        margin-bottom: 30px;
+    }
+    .design-section .design-slider {
+        margin-left: 350px;
+        margin-bottom: 25px;
+    }
+    .photo-area-photos {
+        margin-bottom: 110px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .photo-area-photos > img {
+        width: 230px;
+        height: 184px;
+    }
+    .our-community {
+        width: 203px;
+        height: 240px;
+    }
+    .our-community img {
+        margin-bottom: 17px;
+        width: 60px;
+        margin-top: 25px;
+    }
+    .our-community p {
+        max-width: 195px;
+        margin-top: 8px;
+        font-size: 13px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .subscribe-area h2 {
+        margin-top: 175px;
+        font-size: 26px;
+    }
+    .subscribe-area input[type="email"] {
+        font-size: 17px;
+        letter-spacing: 1px;
+        padding: 16px 15px;
+        width: 291px;
+    }
+    .subscribe-area i {
+        padding: 0px 8px;
+        font-size: 28px;
+    }
+    .subscribe-section {
+        height: 474px;
+    }
+    .download-section h2 {
+        font-size: 23px;
+    }
+    .download-section p {
+        margin-bottom: 60px;
+        max-width: 700px;
+        font-size: 16px;
+    }
+    .download-tab .btn {
+        width: 170.5px;
+        padding: 1.3px 15px;
+        font-size: 16px;
+    }
+    .download-tab i {
+        font-size: 27px;
+        padding: 15px 18px;
+    }
+    .android-download i {
+        padding: 15px 13px;
+    }
+    .footer-area .footer-nav {
+        margin-bottom: 10px;
+    }
+    .footer-area a {
+        font-size: 12px;
+    }
+    .footer-area > span {
+        font-size: 11px;
+    }
+}
+@media (max-width: 414px) {
+    .area {
+        width: 100%;
+    }
+    .nav ul {
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .center {
+        margin-left: -190px;
+        margin-top: -48px;
+    }
+    .c1 {
+        margin-top: -53px;
+    }
+    .nav a {
+    margin: 4px 0px 4px 155px;
+    }
+    h1 {
+    font-size: 26px;
+    letter-spacing: 2px;
+    word-spacing: -1px;
+    }
+    .header-area span {
+        font-size: 13px;
+        margin-top: 10px;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+    }
+    .social-nav {
+        margin: 130px 0px 30px 0px;
+    }
+    .social-nav i {
+        font-size: 24px;
+    }
+    .represent-area {
+        background-size: 146.5% 163%;
+    }
+    .represent-area h2 {
+        margin-left: 15px;
+        margin-bottom: 12px;
+    }
+    .represent-area p {
+        margin-left: 15px;
+    }
+    .represent-area .btn {
+        margin-left: 15px;
+    }
+    h2 {
+        font-size: 17px;
+        letter-spacing: 1px;
+        word-spacing: 0px;
+        line-height: 26px;
+    }
+    span {
+        font-size: 15px;
+        letter-spacing: 1px;
+        word-spacing: 0.5px;
+        line-height: 19px;
+    }
+    .btn {
+        font-size: 12px;
+        width: 172px;
+        height: 44px;
+    }
+    .br1::after {
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ";
+    }
+    .br2::after {
+        content: "";
+    }
+    .br3::after {
+        content: " ";
+    }
+    .br4::after {
+        content: "";
+    }
+    .br5::after {
+        content: "";
+    }
+    .br11::after {
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ";
+    }
+    .br12::after {
+        content: "";
+    }
+    .br13::after {
+        content: "";
+    }
+    .br14::after {
+        content: "";
+    }
+    .br15::after {
+        content: "";
+    }
+    .br16::after {
+        content: "";
+    }
+    .br17::after {
+        content: "";
+    }
+    .br18::after {
+        content: "";
+    }
+    .br19::after {
+        content: "";
+    }
+    .br20::after {
+        content: "";
+    }
+    .design-area {
+        background-size: 100% 100%;
+        background-position: top center;
+        margin-top: 0px;
+        height: 750px;
+    }
+    .design-section h2 {
+        margin-left: 39px;
+        margin-top: 58px;
+    }
+    .design-section p {
+        margin-left: 44px;
+        margin-top: 44px;
+        max-width: 330px;
+    }
+    .design-area .btn {
+        margin-left: 44px;
+        margin-bottom: 30px;
+        border: 1px solid white;
+    }
+    .design-section .design-slider {
+        margin-left: 44px;
+        margin-bottom: 25px;
+    }
+    .photo-slider {
+        margin-right: 15px;
+    }
+    .photo-area-photos {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-bottom: 37px;
+    }
+    .photo-area-photos > img {
+        width: 298px;
+        height: 201px;
+        margin-bottom: 22px;
+    }
+    .subscribe-area h2 {
+        margin-top: 109px;
+        font-size: 22px;
+        word-spacing: 4px;
+    }
+    .subscribe-area input[type="email"] {
+        font-size: 13px;
+        padding: 13px 10px;
+        width: 200px;
+    }
+    .subscribe-area i {
+        padding: 0px 9px;
+        font-size: 21px;
+    }
+    .subscribe-section {
+        height: 400px;
+    }
+    .download-section p {
+        margin-bottom: 60px;
+        max-width: 365px;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .download-tab {
+        margin-bottom: 110px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .android-download {
+        margin-left: 0px;
+    }
+    .apple-download {
+        margin-right: 0px;
+    }
+    .dtaa {
+        margin-bottom: 8px;
+    }
+    .download-tab i {
+        font-size: 27px;
+        padding: 15px 18px;
+    }
+    .download-tab .btn {
+        width: 170.5px;
+        padding: 6.3px 15px;
+    }
+    .android-download .btn {
+        padding: 7px 11px;
+        padding: 7px 15.2px;
+    }
+    .anbtn i {
+        padding: 15.3px 14px;
+    }
+    .footer-area {
+        margin-left: 15px;
+    }
+}
